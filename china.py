@@ -1,5 +1,7 @@
 import subprocess
 
+subprocess.run('apt-get update', shell = True)
+
 subprocess.run('apt-get install git', shell = True)
 
 subprocess.run('git clone https://github.com/thewhiteh4t/seeker.git', shell = True)
