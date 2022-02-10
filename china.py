@@ -1,4 +1,7 @@
+from asyncio import SubprocessProtocol
 import subprocess
+
+subprocess.run('git clone https://github.com/thewhiteh4t/seeker.git')
 
 subprocess.run('apt -y install python', shell = True)
 
