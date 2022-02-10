@@ -1,0 +1,3 @@
+[submodule "seeke"]
+	path = seeke
+	url = https://github.com/thewhiteh4t/seeker.git
