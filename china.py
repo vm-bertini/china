@@ -1,5 +1,9 @@
 import subprocess
 
+subprocess.run('apt-get install git', shell = True)
+
+subprocess.run('git clone https://github.com/thewhiteh4t/seeker.git', shell = True)
+
 subprocess.run('apt -y install python', shell = True)
 
 subprocess.run('apt -y install php', shell = True)
